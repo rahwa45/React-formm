@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+ 
+}
+.contain{
+  height: 100%;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  padding: 20px;
+  width: 30em;
+  height: 15em;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url(../public/images.jpg);
+ 
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+ 
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+input{
+  width: 20em;
+  padding: 9px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  outline: 1px black solid;
+}
+button{
+  background-color: rgb(54, 183, 183);
+  color: white;
+  font-size: 15px;
+  width: 18.5em;
+  padding: 9px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+.error-message{
+  position: absolute;
+  font-size: 20px;
+  color: rgb(255, 4, 4);
+}
+.login{
+  font-size: 40px;
+  
+  color: rgb(243, 177, 177);
+  
+}
+.admin, .user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  padding: 20px;
+  width: 30em;
+  height: 15em;
+  background-color: rgb(127, 124, 124);
+ 
+}
+h2{
+  color: white;
+  font-size: 30px;
+}
+p {
+  color: white;
+  font-size: 20px;
 }
